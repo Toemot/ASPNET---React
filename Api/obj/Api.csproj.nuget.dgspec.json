@@ -1,37 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olasu\\OneDrive\\Documents\\PS\\React18\\ASPNET + React\\Api\\Api.csproj": {}
+    "C:\\Users\\ooluwatsin\\Downloads\\PS\\LReact\\WebAPIReact\\ASPNET---React\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olasu\\OneDrive\\Documents\\PS\\React18\\ASPNET + React\\Api\\Api.csproj": {
+    "C:\\Users\\ooluwatsin\\Downloads\\PS\\LReact\\WebAPIReact\\ASPNET---React\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olasu\\OneDrive\\Documents\\PS\\React18\\ASPNET + React\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\ooluwatsin\\Downloads\\PS\\LReact\\WebAPIReact\\ASPNET---React\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\olasu\\OneDrive\\Documents\\PS\\React18\\ASPNET + React\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\olasu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olasu\\OneDrive\\Documents\\PS\\React18\\ASPNET + React\\Api\\obj\\",
+        "projectPath": "C:\\Users\\ooluwatsin\\Downloads\\PS\\LReact\\WebAPIReact\\ASPNET---React\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\ooluwatsin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ooluwatsin\\Downloads\\PS\\LReact\\WebAPIReact\\ASPNET---React\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\olasu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ooluwatsin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://matrix.actra.ca/ActraNugetPackages/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -39,20 +41,29 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "MiniValidation": {
+              "target": "Package",
+              "version": "[0.9.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -70,24 +81,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
