@@ -14,7 +14,7 @@ const useFetchHouses = () => {
 };
 
 const useFetchHouse = (id: number) => {
-  return useQuery<House[], AxiosError>({
+  return useQuery<House, AxiosError>({
     queryKey: ["houses", id],
     queryFn: () =>
       axios.get(`${config.baseApiUrl}/house/${id}`).then((resp) => resp.data),
