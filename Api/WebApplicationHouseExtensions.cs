@@ -4,7 +4,7 @@ using MiniValidation;
 public static class WebApplicationHouseExtensions{
     public static void MapHouseExtensionEndPoints(this WebApplication app)
     {
-        app.MapGet("/house", async (IHouseRepository repo) => await repo.GetAll())
+        app.MapGet("/houses", async (IHouseRepository repo) => await repo.GetAll())
             .Produces<HouseDto[]>(StatusCodes.Status200OK);
 
         app.MapGet("/house/{houseId:int}", async (int houseId, IHouseRepository repo) => {
@@ -16,7 +16,7 @@ public static class WebApplicationHouseExtensions{
             return Results.Ok(house);
         }).ProducesProblem(404).Produces<HouseDetailDto>(statusCode: StatusCodes.Status200OK);
 
-        app.MapPost("/house", async ([FromBody] IHouseRepository repo, HouseDetailDto dto) => {
+        app.MapPost("/houses", async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => {
             if (!MiniValidator.TryValidate(dto, out var errors))
                 return Results.ValidationProblem(errors);
             
@@ -27,7 +27,7 @@ public static class WebApplicationHouseExtensions{
             return Results.Created($"/house/{newHouse.Id}", newHouse);
         }).ProducesValidationProblem().ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status201Created);
 
-        app.MapPut("/house/{houseId:int}", async (int houseId, [FromBody] IHouseRepository repo, HouseDetailDto dto) => {
+        app.MapPut("/houses/{houseId:int}", async (int houseId, [FromBody]HouseDetailDto dto, IHouseRepository repo) => {
             if (!MiniValidator.TryValidate(dto, out var errors)) 
                 return Results.ValidationProblem(errors);
 
@@ -38,7 +38,7 @@ public static class WebApplicationHouseExtensions{
             return Results.Ok(updatedHouse);
         }).ProducesValidationProblem().ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status200OK);
 
-        app.MapDelete("/house/{houseId:int}", async (int houseId, IHouseRepository repo) => 
+        app.MapDelete("/houses/{houseId:int}", async (int houseId, IHouseRepository repo) => 
         {
             if (await repo.Get(houseId) == null)
                 return Results.Problem($"House with id {houseId} does not exist.", statusCode:404);

@@ -6,7 +6,6 @@ C:\Users\ooluwatsin\Downloads\PS\LReact\WebAPIReact\ASPNET---React\Api\bin\Debug
 C:\Users\ooluwatsin\Downloads\PS\LReact\WebAPIReact\ASPNET---React\Api\bin\Debug\net8.0\Api.dll
 C:\Users\ooluwatsin\Downloads\PS\LReact\WebAPIReact\ASPNET---React\Api\bin\Debug\net8.0\Api.pdb
 C:\Users\ooluwatsin\Downloads\PS\LReact\WebAPIReact\ASPNET---React\Api\bin\Debug\net8.0\Humanizer.dll
-C:\Users\ooluwatsin\Downloads\PS\LReact\WebAPIReact\ASPNET---React\Api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\ooluwatsin\Downloads\PS\LReact\WebAPIReact\ASPNET---React\Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\ooluwatsin\Downloads\PS\LReact\WebAPIReact\ASPNET---React\Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\ooluwatsin\Downloads\PS\LReact\WebAPIReact\ASPNET---React\Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll

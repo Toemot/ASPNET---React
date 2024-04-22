@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "t5xUYVszqCLVbwjhWzAyJC9Yd019xqfHs997xB1oMLGaLU+/0+cOKwxIxKtWu8Bn6KSYhgu1IuM+CxxMHSWjtQ==",
+  "dgSpecHash": "6Z4RGO4wnmc3Qk/IPfgrHLeAmTO3xaOJDp59wSCrdGuRHha0yObRYqS2H4z0dD0iBkBmidmxHdCWp2eiAtp21w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ooluwatsin\\Downloads\\PS\\LReact\\WebAPIReact\\ASPNET---React\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ooluwatsin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\ooluwatsin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "C:\\Users\\ooluwatsin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\ooluwatsin\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\ooluwatsin\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
@@ -31,7 +30,7 @@
     "C:\\Users\\ooluwatsin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\ooluwatsin\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\ooluwatsin\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\ooluwatsin\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\ooluwatsin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\ooluwatsin\\.nuget\\packages\\minivalidation\\0.9.0\\minivalidation.0.9.0.nupkg.sha512",
     "C:\\Users\\ooluwatsin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\ooluwatsin\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
